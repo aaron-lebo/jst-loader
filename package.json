@@ -1,0 +1,26 @@
+{
+  "name": "jst-loader",
+  "version": "1.0.0",
+  "description": "webpack loader for .jst files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "xjs": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aaron-lebo/jst-loader.git"
+  },
+  "author": "Aaron Lebo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron-lebo/jst-loader/issues"
+  },
+  "homepage": "https://github.com/aaron-lebo/jst-loader#README",
+  "dependencies": {
+    "escodegen": "^1.8.0"
+  }
+}
